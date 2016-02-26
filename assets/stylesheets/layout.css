@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	outline: 0;
+	color: #000;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	margin: 0 auto -50px;
+	width: 100%;
+}
+
+footer{
+	height: 50px;
+	background: rgba(255,255,0,0.15);
+}
+
+footer .left{
+	padding-top: 17px;
+	padding-left: 5%;
+}
+
+footer .left a{
+	color: #222;
+}

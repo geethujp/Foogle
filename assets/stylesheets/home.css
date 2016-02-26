@@ -1,0 +1,31 @@
+.home_body{
+	width: 100%;
+	text-align: center;	
+	padding-top: 200px;
+}
+
+img{
+	vertical-align: middle;
+}
+
+form button{
+	background: #4285f4;
+	height: 34px;
+	border: none;
+	width: 40px;
+}
+
+form input{
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+form select{
+	height: 36px;
+	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+form button i{
+	color: white;
+}
