@@ -1,0 +1,37 @@
+[{
+    "id": 1,
+    "name": "Geethu Jose",
+    "username": "geethu",
+    "password": 123,
+    "email": "geethuj@qburst.com",
+    "phone": 9497590726,
+    "type": "customer",
+    "profile_pic": "Foogle/assets/images/1.jpg"
+}, {
+    "id": 2,
+    "name": "Elizabeth Mathew",
+    "username": "elizabeth",
+    "password": 555,
+    "email": "elizabeth@qburst.com",
+    "phone": 9446982466,
+    "type": "restaurant",
+    "profile_pic": "Foogle/assets/images/2.jpg"
+}, {
+    "id": 3,
+    "name": "Dan Bejoy",
+    "username": "dan",
+    "password": 111,
+    "email": "dan@qburst.com",
+    "phone": 9495470729,
+    "type": "customer",
+    "profile_pic": "Foogle/assets/images/3.jpg"
+}, {
+    "id": 4,
+    "name": "Harikrishnan",
+    "username": "hari",
+    "password": 999,
+    "email": "hari@qburst.com",
+    "phone": 9605276927,
+    "type": "customer",
+    "profile_pic": "Foogle/assets/images/4.jpg"
+}]

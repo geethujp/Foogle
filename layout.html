@@ -1,31 +1,51 @@
 <!DOCTYPE html>
 <html ng-app="foogleApp" ui-router-styles>
-<head>
-	<meta charset="UTF-8">
-	<title>Foogle</title>
-	<script type="text/javascript" src="/assets/lib/angular/angular.js"></script>
-	<script type="text/javascript" src="/assets/lib/angular-ui-router/angular-ui-router.min.js"></script>
-	<script type="text/javascript" src="/assets/lib/angular-ui-router-styles/ui-router-styles.js"></script>
-	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cerulean/bootstrap.min.css">
-	   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js"></script>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<script type="text/javascript" src="/routes/route.js"></script>
-
-	<link rel="stylesheet" href="/assets/stylesheets/layout.css">
-</head>
-<body>
-	<body>
-
-	<a ui-sref="login">Login</a>
-
-        <div class="wrapper" ui-view>
-        	
-        </div>
-        <footer>
-            <div class="left">
-            	<a href="">About</a>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Foogle
+        </title>
+        <script type="text/javascript" src="/assets/lib/angular/angular.js">
+        </script>
+        <script type="text/javascript" src="/assets/lib/angular-ui-router/angular-ui-router.min.js">
+        </script>
+        <script type="text/javascript" src="/assets/lib/angular-ui-router-styles/ui-router-styles.js">
+        </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/cerulean/bootstrap.min.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular-messages.js">
+        </script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <script type="text/javascript" src="/routes/route.js">
+        </script>
+        <script type="text/javascript" src="/controllers/loginController.js">
+        </script>
+        <link rel="stylesheet" href="/assets/stylesheets/layout.css"/>
+        <!-- Firebase -->
+        <script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js">
+        </script>
+        <!-- AngularFire -->
+        <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js">
+        </script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css" />
+        <script src="//code.jquery.com/jquery-1.10.2.js">
+        </script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js">
+        </script>
+    </head>
+    <body>
+        <body>
+            <a ui-sref="login">
+                Login
+            </a>
+            <div class="wrapper" ui-view>
             </div>
-        </div>
+            <footer>
+                <div class="left">
+                    <a href="">
+                        About
+                    </a>
+                </div>
+            </div>
+        </body>
     </body>
-</body>
 </html>
